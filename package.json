@@ -1,0 +1,10 @@
+{
+  "name": "iwe7-utils",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "date-fns": "^1.29.0",
+    "file-saver": "^1.3.8"
+  }
+}
