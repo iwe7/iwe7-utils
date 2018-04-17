@@ -4,6 +4,7 @@
   "lib": {
     "entryFile": "src/public_api.ts",
     "umdModuleIds": {
+      "rxjs": "Rx",
       "date-fns/format": "date-fns/format/index",
       "date-fns/parse": "date-fns/parse/index",
       "date-fns/add_seconds": "date-fns/add_seconds/index",

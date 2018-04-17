@@ -2,12 +2,12 @@ import { Injectable, Inject, InjectionToken } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { saveAs } from "file-saver";
 import { LazyService, LazyResult } from "./lazy.service";
-
+export function getZipDefaultConfig() {
+  return {};
+}
 export const DA_ZIP_CONFIG = new InjectionToken<ZipConfig>("DA_ZIP_CONFIG", {
   providedIn: "root",
-  factory: () => {
-    return {};
-  }
+  factory: getZipDefaultConfig
 });
 
 export interface ZipConfig {
